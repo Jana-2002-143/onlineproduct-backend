@@ -32,6 +32,8 @@ public class SecurityConfig {
                                 "/api/forget",
                                 "api/verifyotp",
                                 "api/resetpassword",
+                                "api/order",
+                                "api/history",
                                 "/api/test"
                         ).permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
